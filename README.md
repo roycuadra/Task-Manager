@@ -12,9 +12,9 @@ The application relies on the following external dependencies:
 
 ## Key Features
 
-1. **Real-Time Data Synchronization**: The application fetches and displays tasks from Firestore in real-time using the `onSnapshot` method.
+1. **Real-Time Data Synchronization**: The application fetches and displays tasks from Firestore in real-time.
 
-2. **Add Task Functionality**: Users can add new tasks by entering task details into the input field and clicking the "Add Task" button. Task addition is handled by the `addTodo` function.
+2. **Add Task Functionality**: Users can add new tasks by entering task details into the input field and clicking the "Add Task" button.
 
 3. **Input Sanitization**: User input is sanitized using DOMPurify to prevent XSS attacks before adding it to the Firestore database.
 
