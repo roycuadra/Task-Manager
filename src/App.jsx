@@ -1,4 +1,6 @@
-import { useState } from 'react'
+
+import { useState, useEffect } from 'react';
+import Swal from 'sweetalert2';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -6,6 +8,16 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  useEffect(() => {
+    // Trigger SweetAlert2 pop-up when the component mounts
+    Swal.fire({
+      title: 'Welcome to our site!',
+      text: 'Thank you for visiting us.',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    });
+  }, []);
+   
   return (
     <>
       <div>
