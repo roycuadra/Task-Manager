@@ -1,5 +1,7 @@
 # [View Demo](https://todo-app-firebase-omega.vercel.app/)
 
+<img src="Capture.PNG" alt="Screenshot" width="400">
+
 ## Dependencies
 
 The application relies on the following external dependencies:
