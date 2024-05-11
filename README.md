@@ -1,6 +1,6 @@
 # [View Demo](https://todo-app-firebase-omega.vercel.app/)
 
-<img src="Capture.PNG" alt="Screenshot" width="400">
+<img src="Capture.PNG" alt="Screenshot" width="80%">
 
 ## Dependencies
 
